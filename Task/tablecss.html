@@ -4,30 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>table task with css</title>
+    
+    <style>
+        table{
+            height: 400px;
+            width: 50%;
+            margin: 10px auto;
+            /* padding: 5px; */
+        }
+
+        .box1{
+            background-color: rgb(204, 141, 23);
+        }
+
+        .box3{
+            background-color: rgb(86, 136, 11);
+        }
+    </style>
+
 
 </head>
 <body>
     
-    <table border="" cellspacing="10" cellpadding="10" width="50%" height="600px">
-
-        <tr>
-            <td colspan="2">data</td>
+    <table border="" cellspacing="10px" cellpadding="40px">
+        <tr class="box1">
+            <td colspan="4">head</td>
         </tr>
         <tr>
-            <td rowspan ="2">data</td>
-            <td>
-                <table border="" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td>data</td>
-                        <td>data</td>
-                    </tr>
-                </table>
-            </td>
+            <td rowspan="2" width="25%">box 2</td>
+            <td width="75%">box 3</td>
         </tr>
-
-    </table>
-    <table border="" cellspacing="10" cellpadding="0" width="50%">
-        <tr><td>footer</td></tr>
+        <tr>
+            <td width="75%">box 4</td>
+        </tr>
+        <tr class="box3">
+            <td colspan="3">foot</td>
+        </tr>
     </table>
 
 </body>
