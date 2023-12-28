@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display flex</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            border: 1px solid black;
+
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+            border: 1px dashed rgb(255, 77, 0);
+        }
+
+        .parent{
+            border: 1px dashed blue;
+            height: 400px;
+            display: flex;
+            /* flex-direction: column;   */
+            /* justify-content: center; */
+            justify-content: space-between;
+            align-items: center;
+            
+            /* flex-wrap: wrap;                 */
+            /* flexwrap gives support to align content */
+            /* align-content: center; */
+        }
+
+        div[class*='box']{
+            border: 2px dashed rgb(245, 5, 5);
+            width: 300px;
+            height: 100px;
+        }   
+        .box-c{
+            /* order: 1; */
+            /* flex-grow: 4; */    
+            /* default 0 */
+
+            /* flex-shrink: 4;  
+             /* default 1 */
+
+            /* flex-basis:  50%; 
+            /* default auto */ 
+            /* align-self: center; */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="parent">
+
+            <div class="box-a">data</div>
+            <div class="box-b">data</div>
+            <div class="box-c">data</div>
+        </div>
+    </div>
+    
+</body>
+</html>

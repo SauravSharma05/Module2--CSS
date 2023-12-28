@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS</title>
+
+    <style>
+        *{
+            border: 1px solid black;
+        }
+        div[class*='box']{
+
+            height: 50px;
+            border: 2px dashed red;
+            margin: 20px;
+            height: 100px; 
+            width: 100px;
+            /* display: block; */
+            /* display: inline; */
+            display: inline-block;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="parent">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+    
+</body>
+</html>
