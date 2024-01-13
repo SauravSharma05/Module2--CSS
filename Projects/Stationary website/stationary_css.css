@@ -12,6 +12,9 @@
 .fc {
   flex-direction: column;
 }
+.pa{
+  position: absolute;
+}
 .topline {
   font-weight: 400;
   font-size: 16px;
@@ -94,6 +97,7 @@
 .inright {
   width: 60%;
   margin: 50px auto;
+  position: relative;
 }
 .line1 {
   margin-top: 30px;
@@ -141,17 +145,18 @@
 }
 .store {
   margin-top: 80px;
+  position: relative; 
 }
 .storeline {
   width: 85%;
   margin: 40px auto;
 }
 .storecard {
-  position: relative;
+  position: relative; 
 }
 .textdiv {
+  width: 70%;
   margin: 50px auto;
-  width: 55%;
   align-items: center;
 }
 .imgdiv {
@@ -160,7 +165,6 @@
   margin: 0 auto;
 }
 .butcorp {
-  position: absolute;
   top: 250px;
   left: 160px;
   justify-content: center;
@@ -209,6 +213,7 @@ video {
   justify-content: space-between;
 }
 .form {
+  position: relative;
   width: 50%;
   margin-top: 50px;
   gap: 30px;
@@ -275,11 +280,9 @@ iframe {
 .bluebean{
   width: 80px;
   height: 80px;
-  position: absolute;
   left: -180px;
 }
 .panida{
-  position: absolute;
   z-index: 0;
   left: -60px;
   top: -20px;
@@ -289,7 +292,100 @@ iframe {
 }
 .blueline{
   z-index: 0;
-  right: -200px;
+  right: -159px;
   top: -0px;
-  position: absolute;
 }
+.laalwave{
+  left: -220px;
+  bottom: -90px;
+}
+.laalbean{
+  bottom: 120px;
+  left: 300px;
+}
+.yellowbean{
+  right: -30px;
+  bottom: 0px;
+}
+.yellowbean2{
+  transform: rotate(110deg);
+  right: 0px;
+  top: 0px;
+}
+.panida2{
+  right: 115px;
+  top: -75px;
+  width: 150px;
+  height: 150px;
+}
+.blueline2{
+  width: 150px;
+  height: 150px;
+  transform: rotate(90deg);
+  bottom: 0px;
+  right: -180px;
+}
+.bluebean2{
+  width: 50px;
+  height: 50px;
+  bottom: -10px;
+}
+.bluebean3{
+  width: 150px;
+  height: 150px;
+  right: 20px;
+  transform: rotate(280deg);
+  top: -10px;
+}
+.blueline3{
+  width: 150px;
+  height: 150px;
+  transform: rotate(260deg);
+  top: 0px;
+  left: -20px;
+  z-index: 1;
+}
+.bl3a{
+  z-index: 0;
+  left: 10px;
+  top: 20px;
+}
+.yellowbean3{
+  transform: rotate(110deg);
+  left: 0px;
+  bottom: 0px;
+}
+.laalwave2{
+  transform: rotate(240deg);
+  height: 150px;
+  width: 150px;
+  right: 10px;
+  bottom: 0px;
+}
+.bluebean4{
+  width: 50px;
+  transform: rotate(100deg);
+  height: 50px;
+  top: -25px;
+  left: -30px;
+}
+.bluebean5{
+  width: 50px;
+  transform: rotate(280deg);
+  height: 50px;
+  bottom: 110px;
+  right: 170px;
+}
+@media(max-width: 576px){
+  .headerbox{
+      width: 1200px;
+      justify-content: space-between;
+      
+    }
+    .home{
+      width: 270px;
+      text-align: center;
+      height: 200px;
+    }
+    
+  }
