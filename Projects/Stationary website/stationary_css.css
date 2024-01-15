@@ -379,8 +379,7 @@ iframe {
 @media(max-width: 576px){
   .headerbox{
       width: 1200px;
-      justify-content: space-between;
-      
+      justify-content:space-between;    
     }
     .home{
       width: 275px;
@@ -390,3 +389,4 @@ iframe {
 
     
   }
+  
