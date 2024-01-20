@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+      <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: none;
+        border-radius: 50%;
+        text-align: center;
+        animation-name: jadu;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        z-index: 0;
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: none;
+        border-radius: 50%;
+        text-align: center;
+        animation-name: jadu2;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        z-index: 1;
+      }
+      .box1 {
+        width: 200px;
+        height: 200px;
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: none;
+        border-radius: 50%;
+        text-align: center;
+        animation-name: jadu3;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        z-index: 1;
+      }
+      p{
+        margin-top: 80px;
+        background: none;
+      }
+      @keyframes jadu {
+        0% {
+          margin-left: 0px;
+          margin-top: 0px;
+          background-color: rgb(237, 143, 22);
+          color: khaki;
+        }
+        50% {
+          margin-top: 490px;
+          margin-left: 290px;
+          background-color: black;
+          color: aliceblue;
+        }
+        100% {
+          margin-top: 0px;
+          margin-left: 0px;
+          background-color: rgb(64, 234, 34);
+          color: aliceblue;
+        }
+    }
+    .maindiv{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+      @keyframes jadu2{
+        0% {
+          margin-left: 0px;
+          margin-top: 0px;
+          background-color: rgb(36, 223, 26);
+          color: khaki;
+        }
+        25% {
+            margin-top: 0px;
+            margin-left: 0px;
+          background-color: rgb(36, 223, 26);
+          color: khaki;
+        }
+        50% {
+            margin-left: 290px;
+            margin-top: 490px;
+          background-color: black;
+          color: aliceblue;
+        }
+        100% {
+            margin-top: 0px;
+            margin-left: 0px;
+          background-color: rgb(233, 144, 27);
+          color: aliceblue;
+        }
+    }
+    .p1{
+        background-color: rgb(42, 42, 234);
+        border-radius: 50px;
+    }
+      @keyframes jadu3{
+        0% {
+          margin-left: 0px;
+          margin-top: 0px;
+          background-color: white;
+          color: khaki;
+        }
+        50% {
+            margin-left: 290px;
+            margin-top: 490px;
+          background-color: black;
+          color: aliceblue;
+        }
+        100% {
+            margin-top: 0px;
+            margin-left: 0px;
+          background-color: white;
+          color: wheat;
+        }
+    }
+    </style>
+  </head>
+  <body>
+    <div class="maindiv">
+        <div class="box"><p>M E R A</p></div>
+        <div class="box1"> <p class="p1">B H A R A T</p></div>
+        <div class="box2"><p>M A H A N</p></div>
+    </div>
+</body>
+</html>
