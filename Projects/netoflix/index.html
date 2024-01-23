@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nefflix clone</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 0.5px solid black;
+      }
+      .df {
+        display: flex;
+      }
+      .w50 {
+        width: 50%;
+      }
+      .fdc {
+        flex-direction: column;
+      }
+      .aic {
+        align-items: center;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      .topbox {
+        background: url("../netoflix/images/download.jpg") no-repeat
+          center/cover;
+          height: 689px;
+      }
+      .logo {
+        width: 200px;
+      }
+      .line1 {
+        width: 80%;
+        height: 100px;
+        margin: 10px auto;
+        font-family: sans-serif;
+        justify-content: space-between;
+      }
+      .sign {
+        gap: 20px;
+      }
+      .buttop {
+        border: 1px solid rgb(202, 197, 197);
+        border-radius: 5px;
+        height: 30px;
+        color: white;
+      }
+      .english {
+        height: 30px;
+        justify-content: center;
+        background: none;
+        width: 100px;
+      }
+      .signin {
+        justify-content: center;
+        background-color: #e50914;
+        height: 30px;
+        width: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbox df">
+      <div class="line1 df">
+        <div class="logo">
+          <img src="../netoflix/images/newlogo.png" alt="" />
+        </div>
+        <div class="sign df aic">
+          <div class="english buttop df aic">English</div>
+          <div class="signin df aic buttop">Sign In</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="enjoytv df">
+      <div class="enjoy1 df fdc w50"></div>
+      <div class="enjoy1 df w50"></div>
+    </div>
+  </body>
+</html>
