@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive nav</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #navbar{
+            width: 100%;
+            display: flex;
+            gap: 100px;
+            align-items: center;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .logo{
+            height: 80px;
+            width: 80px;
+        }
+        input{
+            height: 20px;
+            width: 20px;
+            z-index: 1;
+        }
+        .home{
+            position: relative;
+        }
+        .items{
+            display: none;
+        }
+        input:checked + .items {
+          display: block;
+          width: 200px;
+          padding: 10px 0px;
+          position: absolute;
+          top: 100px;
+          animation-name: slide;
+          animation-duration: 2s;
+        }
+        @keyframes slide {
+            from{
+                left: -200px;
+            }
+            to{
+                left: 0px;
+            }
+            
+        }
+        li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="../Practice/back.webp" alt="">
+        </div>
+
+        <div class="home">
+            <input type="checkbox" name="" id=""> 
+            <ul class="items">
+                <li><input type="checkbox"></li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+                <li>Home</li>
+              </ul>
+        </div>
+
+    </nav>
+</body>
+</html>
