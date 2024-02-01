@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 1px solid black; */
+}
+.df{
+    display: flex;
+}
+.fdc{
+    flex-direction: column;
+}
+.jsb{
+    justify-content: space-between;
+}
+.aic{
+    align-items: center;
+}
+.h100{
+    height: 100%;
+}
+.w100{
+    width: 100%;
+}
+#navbar{
+    gap: 20px;
+    /* background-color: khaki; */
+}
+.logo{
+    height: 120px;
+    width: 120px;
+}
+.div1{
+    gap: 30px;
+    margin-left: 20px;
+}
+.div2{
+    margin-right: 80px;
+    gap: 30px;
+}
+.seachbar{
+    height: 50px;
+    width: 400px;
+}
+input{
+    border-radius: 20px;
+    padding: 0px 20px;
+}
+.tab{
+    height: 40px;
+    border-radius: 12px;
+}
+a{
+   text-decoration: none;
+   text-shadow: 1px 1px 2px rgb(71, 231, 84);
+}
+.slider{
+    height: 350px;
+    margin: 10px 0px;
+    animation-name: jadu;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+    @keyframes jadu {
+        0% {
+          background: url('../bookwebsite/images/slider1.jpg')no-repeat center/cover;
+        }
+        33% {
+            background: url('../bookwebsite/images/slider2.jpg')no-repeat center/cover;   
+        }
+        66% {
+            background: url('../bookwebsite/images/slider3.jpg')no-repeat center/cover;
+        }
+        100% {
+            background: url('../bookwebsite/images/slider1.jpg')no-repeat center/cover;
+        }
+}
+.bookset{
+    margin: 40px 70px;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bookp{
+    font-size: 20px;
+    margin: 40px 70px;
+}
+.bookimg{
+    height: 300px;
+    border: 1px solid gray;
+}
+.bookscard{
+    align-items: center;
+    gap: 5px;
+    width: 245px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 5px;
+}   
+.bname{
+    font-weight: 200;
+}
+.bprice{
+    font-size: 20px;
+    font-weight: 600;
+}
+.add{
+    background-color: yellow;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+.footbox{
+    margin: 30px 70px;
+    background-color: lightpink;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+.fb1{
+    background-color: aquamarine;
+    width: 20%;
+    align-items: center;
+}
+

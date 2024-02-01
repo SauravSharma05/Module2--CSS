@@ -4,66 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booksweb</title>
-    <style>
-        *{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: sans-serif;
-            border: 1px solid black;
-        }
-        .df{
-            display: flex;
-        }
-        .fdc{
-            flex-direction: column;
-        }
-        .jsb{
-            justify-content: space-between;
-        }
-        .aic{
-            align-items: center;
-        }
-        .h100{
-            height: 100%;
-        }
-        .w100{
-            width: 100%;
-        }
-        #navbar{
-            gap: 20px;
-            /* background-color: khaki; */
-        }
-        .logo{
-            height: 120px;
-            width: 120px;
-        }
-        .div1{
-            gap: 30px;
-            margin-left: 20px;
-        }
-        .div2{
-            margin-right: 80px;
-            gap: 30px;
-        }
-        .seachbar{
-            height: 50px;
-            width: 400px;
-        }
-        input{
-            border-radius: 20px;
-            padding: 0px 20px;
-        }
-        .tab{
-            height: 40px;
-            background-color: crimson;
-            border-radius: 12px;
-        }
-        a{
-           color: white;
-           text-decoration: none;
-        }
-        </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -80,22 +21,77 @@
 
             <div class="div2 df aic">
                 <div class="tab aic df">
-                    <a href="#">HOME</a>
+                    <a href="#"><b>HOME</b></a>
                 </div>
                 <div class="tab aic df">
-                    <a href="#">REGISTER</a>
+                    <a href="#"><b>REGISTER</b></a>
                 </div>
                 <div class="tab aic df">
-                    <a href="#">LOGIN</a>
+                    <a href="#"><b>LOGIN</b></a>
                 </div>
                 <div class="tab aic df">
-                    <a href="#">ABOUT US</a>
+                    <a href="#"><b>ABOUT US</b></a>
                 </div>
                 <div class="tab aic df">
-                    <a href="#">CONTACT US</a>
+                    <a href="#"><b>CONTACT US</b></a>
                 </div>
             </div>
         </nav>
+
+        <div class="slider w100"></div>
+        
+        <div class="bookp"><p><b><u>Books Set</u></b></p></div>
+        
+        <div class="bookset df">
+            <div class="bookscard df fdc">
+                <div class="bookimg df fdc w100">
+                    <img src="../bookwebsite/images/bimg1.jpg" class="w100 h100" alt="">
+                </div>
+                    <p class="bprice">The Art of War</p>
+                    <p class="bprice">Rs 450</p>
+                    <button class="add "><b>Add to Cart</b></button>
+            </div>
+       
+
+        </div>
+
+        <footer class="footer w100">
+            <div class="footbox df">
+                <div class="fb1 df fdc">
+                    <div class="logo">
+                        <img class="logoimg h100 w100" src="../bookwebsite/images/logo.jpg" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit illo ex dolores odit quas, iusto perspiciatis maxime dolor pariatur earum odio quod atque qui incidunt. Aliquid est fugit neque eveniet!</p>
+                    <p>logos</p>
+                </div>
+
+                <div class="fb1 df">
+                    <ul>
+                        <li>data</li>
+                        <li>data</li>
+                        <li>data</li>
+                        <li>data</li>
+                    </ul>
+                </div>
+                <div class="fb1 df">
+                    <ul>
+                        <li>data</li>
+                        <li>data</li>
+                        <li>data</li>
+                        <li>data</li>
+                    </ul>
+                </div>
+                <div class="fb1 df">
+                    <ul>
+                        <li>data</li>
+                        <li>data</li>
+                        <li>data</li>
+                        <li>data</li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
 
 
 
