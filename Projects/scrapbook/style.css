@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.df {
+    display: flex;
+  }
+  .w100 {
+    width: 100%;
+  }
+  .h100 {
+    height: 100%;
+  }
+  .fdc {
+    flex-direction: column;
+  }
+  .aic {
+    align-items: center;
+  }
+  .jcsb{
+    justify-content: space-between;
+  }
+  .jcs{
+    justify-content: center;
+  }
+  .but1 {
+    height: 50px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+    button{
+    border-radius: 7px;
+  }
+  .topbar{
+    width: 85%;
+    font-size: 17px;
+    margin: 60px auto;
+    font-family: sans-serif;
+}
+.left{
+    gap: 60px;
+}
+.secondbox{
+    width: 85%;
+    margin: 0 auto;
+
+  }
+  .but1a{
+    font-size: 15px;
+    background: none;
+  }
+  .sbox1{
+    width: 28%;
+    gap: 30px;
+  }
+  .sbox2{
+    height: 380px;
+    width: 700px;
+  }
+  .line1{
+    font-family: 'Cardo', serif;
+    font-size: 48px;
+  }
+  .but2a{
+    height: 40px;
+    width: 150px;
+  }
+  .but2{
+    background-color: black;
+    color: white;
+  }
+  .thirdbox{
+    background-color: black;
+    color: white;
+    margin: 70px 0px;
+  }
+  .tbox{
+    width: 20%;
+    gap: 20px;
+    margin: 30px auto;
+  }
+  .line1a{
+    font-size: 40px;
+  }
+  .but2a{
+    border-color: white;
+  }
+  .bdiv{
+    width: 16%;
+  }
+  .cardbar{
+    width: 85%;
+    margin: 30px auto;
+  }
+  .card{
+    width: 30%;
+    gap: 20px;
+  }
+  .boxp{
+    font-weight: bolder;
+    font-size: 25px;
+    width: 50%;
+  }
+  .seebox{
+    margin: 90px 0px;
+  }
+  .logo{
+    height: 50px;
+    width: 50px;
+  }
+  .midb{
+    gap: 40px;
+    width: 33%;
+  }
+  .san{
+    font-family: sans-serif;
+  }
+  .imgbox2{
+    width: 85%;
+    margin: 50px auto;
+  }
+  .lboxa{
+    width: 35%;
+  }
+  .imgbb{
+    height: 300px;
+    width: 400px;
+  }
+  .lboxb{
+    width: 60%;
+  }
+  .pimg{
+    width: 180px;
+  }
+  .imgbba{
+    gap: 20px;
+    margin-top: 50px;
+  }
+  .imgbba1{
+    gap: 20px;
+    width: 70%;
+  }
+  
