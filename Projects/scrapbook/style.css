@@ -250,5 +250,97 @@ li{
   margin: 20px 0px;
 }
 
+@media (max-width: 576px) 
+{
+  .navbar{
+    width: 100%;
+  }
+  .left{
+    gap: 30px;
+  }
+  .secondbox{
+    flex-direction: column-reverse;
+  }
+  .sbox2{
+    height: 300px;
+    width: 485px;
+  }
+  .sbox1{
+    width: 100%;
+    align-items: center;
+  }
+  .tbox{
+    width: 90%;
+  }
+  .cardbar{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    width: 80%;
+  }
+  .midb{
+    width: 90%;
+  }
+  .imgbox2{
+    width: 90%;
+  }
+  .imgbb{
+    width: 305px;
+  }
+  .cbox{
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .lftbox{
+    width: 70%;
+  }
+  .sitb{
+    width: 90%;
+    flex-direction: column-reverse;
+  }
+  .sitb1{
+    width: 100%;
+  }
+  .hbox{
+    width: 95%;
+    flex-direction: column;
+  }
+  .profilecard{
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+  }
+  .hbline1{
+    width: 70%;
+  }
+  .profbox{
+    width: 90%;
+  }
+  .updbox{
+    width: 90%;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+  .updb{
+    width: 350px;
+  }
+  .upda{
+    width: 70%;
+  }
+  .footbox{
+    width: 95%;
+    flex-direction: column;
+  }
+  .mybox{
+    width: 100%;
+  }
+  .mybox2{
+    width: 100%;
+  }
+}
 
   
