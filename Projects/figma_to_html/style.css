@@ -62,6 +62,16 @@
     color: #35414b;
     font-family: sans-serif;
   }
+  .man2{
+    font-size: 32px;
+    color: #35414b;
+    font-family: sans-serif;
+  }
+  .man3{
+    font-size: 16px;
+    color: #35414b;
+    font-family: sans-serif;
+  }
 .sbl2{
     width: 50%;
     font-weight: 600;
@@ -93,5 +103,98 @@ input{
     width: 60%;
     height: 26px;
 }
-
-
+.timebox{
+  width: 80%;
+  margin: 30px auto;
+}
+.tleft{
+  width: 50%;
+}
+.tleft1{
+  width: 50%;
+  padding: 35px;
+}
+.tbox{
+  padding: 20px;
+  gap: 10px;
+  width: 55%;
+}
+.tbf{
+  color: #4E5A65;
+}
+.mwe{
+  width: 80%;
+  gap: 30px;
+  margin: 50px auto;
+}
+.cbox{
+  padding: 20px;
+  gap: 10px;
+  width: 33%;
+}
+.card{
+  flex-wrap: wrap;
+}
+.cboximg{
+  height: 60px;
+  width: 60px;
+}
+.hourimg{
+  width: 55%;
+}
+.tbnew{
+  width: 30%;
+}
+.cardprof{
+  width: 80%;
+}
+.purbox{
+  background-color: #796EFF;
+  color: white; 
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 40px;
+  border-radius: 16px;
+  width: 100%;
+}
+.pur{
+  width: 180px;
+  height: 50px;
+}
+.purp{
+  width: 60%;
+  margin-left: 60px;
+}
+.purdiv{
+  gap: 20px;
+}
+.cfooter{
+  padding: 50px;
+  font-family: sans-serif;
+  background-color: #1D2830;
+  color: white;
+  gap: 30px;
+}
+li{
+  list-style: none;
+  margin-bottom: 20px;
+}
+.fbox{
+  width: 23%;
+}
+.foot2{
+  background-color: gray;
+  border: none;
+  height: 1px;
+}
+.foot3{
+  width: 80%;
+  margin: 20px 0px;
+}
+.foologo{
+  height: 32px;
+  width: 32px;
+}
+.f3l{
+  gap: 20px;
+}
