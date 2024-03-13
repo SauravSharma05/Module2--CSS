@@ -30,18 +30,20 @@
                         <div class="line1"><hr></div>
                     </div>
                     <div class="inp">
-                        <input class="inp1" onblur="handleValidation()" type="text"  name="" id="email" placeholder="Mobile number or email">
-                        <span id="error"></span>
+                        <input class="inp1" onblur="handleValidation(this, 'error1', 'enter valid email')" type="text"  name="" id="email" placeholder="Mobile number or email">
+                        <span id="error1"></span>
                     </div>
                     <div class="inp">
-                        <input class="inp1" onblur="handleValidation()" type="text" name="" id="fname" placeholder="Fullname">
-                        <span id="error"></span>
+                        <input class="inp1" onblur="handleValidation(this, 'error2', 'enter valid name')" type="text" name="" id="fname" placeholder="Fullname">
+                        <span id="error2"></span>
                     </div>
                     <div class="inp">
-                        <input class="inp1" type="text" name="" id="" placeholder="Username">
+                        <input class="inp1" onblur="handleValidation(this, 'error3', 'enter valid username')" type="text" name="" id="" placeholder="Username">
+                        <span id="error3"></span>
                     </div>
                     <div class="inp">
-                        <input class="inp2" type="password" name="" id="" placeholder="Password">
+                        <input class="inp2" onblur="handleValidation(this, 'error4', 'enter valid password')" type="password" name="" id="" placeholder="Password">
+                        <span id="error4"></span>
                     </div>
                     <div class="get1">
                         <p class="pget1">People who use our service may have uploaded your contact information to Instagram. <strong>Learn More</strong></p>
@@ -105,22 +107,15 @@
     </div>
 
     <script>
-       function handleValidation()
-        {
-            let email = document.getElementById("email");
-            let fname = document.getElementById("fname");
-            if (email.value == "") 
-                {
-                        document.getElementById('error').innerText = 'Empty'
-                        document.getElementById('error').style.color = 'red'
-                    } 
-                    else if(fname.value == "")
-                    document.getElementById('error').innerText = 'Empty'
-                    document.getElementById('error').style.color = 'red'
-            {
+          function handleValidation(e, error, message) {
 
-            }
+        if (e.value == "") {
+          document.getElementById(error).innerText = "Enter valid " + message;
+          document.getElementById(error).style.color = "red";
+        } else {
+          document.getElementById(error).innerText = "";
         }
+      }
     </script>
 </body>
 </html>
